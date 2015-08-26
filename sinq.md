@@ -9,6 +9,8 @@ SINQ (an abbreviation of Scientific INQuiry) is an application for the Apple iPa
 
 [Website](http://www.cs.umd.edu/hcil/sinq/), [GitHub for Server](https://github.com/mokogobo/sinq), [GitHub for iPad App](https://github.com/mokogobo/sinq-client)
 
+<p><iframe width="680" height="383" src="https://www.youtube.com/embed/oVNSenyy4bI?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
 <!--
 TODO: Include HCIL Symposium slides
 TODO: Work-in-progress documentation (photos, videos)

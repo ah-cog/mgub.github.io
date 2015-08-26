@@ -21,7 +21,7 @@ Sample of some works that were made: cozy Jenga table center piece with chairs a
 
 <p>Révolution is an episodic series of moments that capture off beat moments of creativity. The footage is found and improvised.</p>
 
-<p><iframe width="800" height="450" src="https://www.youtube.com/embed/videoseries?list=PLwKmtpbCM8EPLc8IskonqsIAAywGmfobD&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="680" height="383" src="https://www.youtube.com/embed/videoseries?list=PLwKmtpbCM8EPLc8IskonqsIAAywGmfobD&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 <h1 class="page-heading">Collider ⇆ Bitcamp (Hack)</h1>
 
