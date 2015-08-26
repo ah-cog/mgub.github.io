@@ -1,0 +1,15 @@
+# Site settings
+title: moko.im
+email: hi@moko.im
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Michael Gubbels.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://moko.im" # the base hostname & protocol for your site
+twitter_username: mokogobo
+github_username:  mokogobo
+
+# Build settings
+# markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
