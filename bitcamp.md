@@ -7,6 +7,8 @@ categories: environment
 
 Founding organizer of Bitcamp (http://bitca.mp), the first national collegiate hackathon at the University of Maryland, College Park. Bitcamp, part of Division I of the Major League Hacking hackathon series.
 
+[Website](http://bitca.mp), [Project Submissions](http://bitcamp.devpost.com/submissions) (on [Devpost](http://bitcamp.devpost.com/))
+
 <!--
 TODO: Include photos of Bitcamp.
 TODO: Include "breakout" Collider (collision with Bitcamp) installed there and describe the "crazyify your idea" concept.
