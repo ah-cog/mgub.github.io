@@ -3,6 +3,7 @@ layout: page
 title: ScienceKit
 permalink: /projects/sciencekit/
 categories: project
+order: 2
 ---
 
 ScienceKit is an evolution of SINQ.

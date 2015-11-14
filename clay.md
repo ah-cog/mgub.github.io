@@ -3,6 +3,7 @@ layout: page
 title: Clay
 permalink: /projects/clay/
 categories: project
+order: 4
 ---
 
 Clay is an ongoing project that grew out of my thesis work on Pixel.

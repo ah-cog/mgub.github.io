@@ -3,11 +3,14 @@ layout: page
 title: KID Museum
 permalink: /projects/kid-museum/
 categories: environment
+order: 3
 ---
 
 I helped start KID Museum. I was a member of the founding team that established the original museum. Designed and fabricated exhibit experiences, organized and facilitated events (including the Silver Spring Maker Faire), designed and facilitated workshops. Volunteered at KID Museum for the year prior to this position.
 
 <a href="http://kid-museum.org">Website</a>
+
+<h1>Making the Logo</h1>
 
 <!--
 TODO: Include photos of work in progress, sponsorship wall.

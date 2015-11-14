@@ -17,7 +17,8 @@ layout: default
   <section class="grid-wrapper">
     <div class="left-column">
       <strong>Tools</strong><br />
-      {% for page in site.pages %}
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
         {% if page.title %}
           {% if page.categories contains 'project' %}
             <a href="{{ page.url }}">{{ page.title }}</a><br />
@@ -28,7 +29,8 @@ layout: default
 
     <div class="middle-column">
       <strong>Spaces & Events</strong><br />
-      {% for page in site.pages %}
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
         {% if page.title %}
           {% if page.categories contains 'environment' %}
             <a href="{{ page.url }}">{{ page.title }}</a><br />
@@ -39,9 +41,50 @@ layout: default
 
     <div class="right-column">
       <strong>Gadgets</strong><br />
-      {% for page in site.pages %}
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
         {% if page.title %}
           {% if page.categories contains 'gadget' %}
+            <a href="{{ page.url }}">{{ page.title }}</a><br />
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <br />
+
+  <section class="grid-wrapper">
+    <div class="left-column">
+      <strong>Workshop</strong><br />
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
+        {% if page.title %}
+          {% if page.categories contains 'workshop' %}
+            <a href="{{ page.url }}">{{ page.title }}</a><br />
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="middle-column">
+      <strong>Visual</strong><br />
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
+        {% if page.title %}
+          {% if page.categories contains 'image' %}
+            <a href="{{ page.url }}">{{ page.title }}</a><br />
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="right-column">
+      <strong>Writing</strong><br />
+      {% assign sorted_pages = (site.pages | sort: 'order') %}
+      {% for page in sorted_pages reversed | sort: 'order' %}
+        {% if page.title %}
+          {% if page.categories contains 'writing' %}
             <a href="{{ page.url }}">{{ page.title }}</a><br />
           {% endif %}
         {% endif %}
