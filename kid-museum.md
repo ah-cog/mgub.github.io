@@ -12,6 +12,22 @@ I helped start KID Museum. I was a member of the founding team that established 
 
 <h1>Making the Logo</h1>
 
+<h2>Generative Experiments</h2>
+
+I explored a number of early logo design possibilities generated using Processing, along with Michael Smith-Welch.
+
+<!-- TODO: Insert a gallery of the generated designs, including some animated gifs. -->
+
+<h2>The Final Logo</h2>
+
+The design of the final logo was lead by Jeff Hilnbrand. I was heavily involved in the design project.
+
+<!-- TODO: Insert the final design. -->
+
+Some of the designs considered during our collaboration are shown below.
+
+<!-- TODO: Insert a sample of the logos considered. -->
+
 <!--
 TODO: Include photos of work in progress, sponsorship wall.
 TODO: Include code for KID generator, CCC generator.

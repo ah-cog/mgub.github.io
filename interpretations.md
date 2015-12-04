@@ -21,22 +21,22 @@ In this project, I explored (a) the creation of visual media through feedback pr
 The single take for [Life/Breath](https://vimeo.com/35790466) was selected from several video recordings. Using this source footage, I produced a set of images named [Feedback A](https://www.flickr.com/photos/mokogobo/sets/72157626173999862/). The production of these images was accidental. When reviewing recorded videos, I unwittingly discovered a way to distort and combine parts of multiple frames from the source video footage to produce entirely novel images, absent from the source video. This "found filtering" process required my participation and produced somewhat predictable image distortions and artifacts while not being entirely predictable. The process felt coercive. This enabled me to experimentally generate digital effects _indirectly_ without the selecting specific effects prior to their application.
 
 <p class="previews">
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%209.png" width="660" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%201.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%201.png" width="220" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%202.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%202.png" width="220" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%203.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%203.png" width="220" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%204.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%204.png" width="220" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%205.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%205.png" width="220" alt="" /></a>
-<a href="/images/Feedback%20A/Feedback%20A%20Frame%206.png"><img src="/images/Feedback%20A/Feedback%20A%20Frame%206.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%207.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%208.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2010.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2011.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2012.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2013.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2014.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2015.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Feedback%20A/Feedback%20A%20Frame%2016.png" width="220" alt="" style="float: none;" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%209.png" width="660" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%201.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%201.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%202.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%202.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%203.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%203.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%204.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%204.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%205.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%205.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%206.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%206.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%207.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%208.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2010.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2011.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2012.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2013.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2014.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2015.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Feedback%20A/Feedback%20A%20Frame%2016.png" width="220" alt="" style="float: none;" /></a>
 </p>
 
 In the [Feedback A](https://www.flickr.com/photos/mokogobo/sets/72157626173999862/) image set, I utilized a "found filter" that required my participation and produced somewhat predictable image distortions and artifacts while not being entirely predictable. This enabled me to experimentally generate digital effects _indirectly_ without the selecting specific effects prior to their application.
@@ -46,30 +46,30 @@ In the [Feedback A](https://www.flickr.com/photos/mokogobo/sets/7215762617399986
 In the [Interpretations A](https://www.flickr.com/photos/mokogobo/sets/72157626048857093/) image set, I further experimented with image distortion and video feedback without the application of digital effects. The source footage of these images was shot during the same session as that of the Feedback A set. That means that the feedback loop was created using a HANNspree Xv32 32-inch Widescreen LCD HDTV (JT01-32U1-000G) displaying the output from a Canon Vixia HF11 digital camcorder capturing and playing back, live, the image shown by the television. In this project, I was exploring the particular video feedback created by my hardware, lighting, and other conditions as an expressive medium for creating images.
 
 <p class="previews">
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%203.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%203.png" width="660" alt="" /></a>
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%201.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%201.png" width="220" alt="" /></a>
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%202.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%202.png" width="220" alt="" /></a>
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%204.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%204.png" width="220" alt="" /></a>
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%205.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%205.png" width="220" alt="" /></a>
-<a href="/images/Interpretations%20A/Interpretations%20A%20Frame%206.png"><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%206.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%207.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%208.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%209.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2010.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2011.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2012.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2013.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2014.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2015.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2016.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2017.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2018.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2019.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2020.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2021.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2022.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2023.png" width="220" alt="" /></a>
-<a href=""><img src="/images/Interpretations%20A/Interpretations%20A%20Frame%2024.png" width="220" alt="" style="float: none;" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%203.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%203.png" width="660" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%201.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%201.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%202.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%202.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%204.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%204.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%205.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%205.png" width="220" alt="" /></a>
+<a href="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%206.png"><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%206.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%207.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%208.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%209.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2010.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2011.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2012.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2013.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2014.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2015.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2016.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2017.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2018.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2019.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2020.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2021.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2022.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2023.png" width="220" alt="" /></a>
+<a href=""><img src="https://dl.dropboxusercontent.com/u/2618031/moko.im/images/Interpretations%20A/Interpretations%20A%20Frame%2024.png" width="220" alt="" style="float: none;" /></a>
 </p>
 
 The distortion in these images was caused by moving the track bar from place to place in VLC while playing the captured MTS video file from a data DVD that contained the video. The distortion that this creates did not occur for other video formats that I tried.
@@ -90,4 +90,4 @@ This project is, in a sense, inherently interdisciplinary because it was created
 
 I created this film by filming the projection of a 35mm reel of film, using a digital camcorder. The 35mm reel of film was created by hand. To the film I attached three color prints, printed on transparencies using and inkjet printer. The prints were selected from my collection of still images named Interpretations A.
 
-__This was shown in galleries in Chicago and Drift Station.__
+This was shown in galleries in Chicago and Drift Station.
