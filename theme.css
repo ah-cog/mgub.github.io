@@ -27,3 +27,32 @@ body h1 {
 
 /* Images fill the width of the container column divider. */
 .row > div > img { width: 100%; display: block; }
+
+/* Center image in divider. */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/* index.html multi-column styles. */
+.mgub-multicolumn-menu h1 {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mgub-multicolumn-menu h2 {
+  font-size: 18px;
+  line-height: 22px;
+  /* font-weight: 700; */
+  /* letter-spacing: 2px; */
+}
+
+
+.mgub-multicolumn-menu p {
+  font-size: 11pt;
+  color: #777777;
+}
+
