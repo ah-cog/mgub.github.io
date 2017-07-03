@@ -56,3 +56,28 @@ body h1 {
   color: #777777;
 }
 
+/*
+.mgub-multicolumn-menu a:link {
+  color: #000000 !important;
+}
+*/
+
+/* ul.nav li a, ul.nav li a:visited { */
+/*
+.mgub-multicolumn-menu a:visited {
+  color: #000000 !important;
+}
+*/
+
+/*
+.mgub-multicolumn-menu a:hover {
+  color: #000000 !important;
+}
+*/
+
+/* ul.nav li a:hover, ul.nav li a:active { */
+/*
+.mgub-multicolumn-menu a:active {
+  color: #000000 !important;
+}
+*/
