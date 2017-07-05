@@ -87,3 +87,12 @@ body h1 {
 }
 */
 
+/* CSS used here will be applied after bootstrap.css */
+img, .embed-responsive {
+	margin-bottom: 30px;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+iframe, .embed-responsive {
+	margin-bottom: 30px;
+}
