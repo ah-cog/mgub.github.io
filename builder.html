@@ -78,10 +78,18 @@
 			<a href="">GitHub</a>, <a href="https://gitter.im/Machineeeeee/builder?utm_source=share-link&utm_medium=link&utm_campaign=share-lin">Gitter</a>
 		  </p>
 
-		  <p>Builder is a tool that helps creators organize do-it-yourself electronics, software, and product design projects into complete presentaions and kits. At the heart of Builder is a mechanism to generate personalized step-by-step assembly instructions. For electronics, this eliminates the need to reference documentation for hardware, choose pins to use, and figure out how to connect components to a controller chip (e.g., Builder boards, Raspberry Pi, Arduino). I decided to do this to take a small step toward making it possible for more individuals and communities to participate directly in technology innovation. This is also a problem I encounter <em>every time</em> I work on electronics projects.</p>
+		  <p>Builder is a set of tools to help creators organize do-it-yourself electronics, software, and product design projects into complete presentations and kits.</p>
+		  
+		  <p>The concept at the heart of Builder is <em>interactive self-assembly</em> (or <em>IASM</em>). I came up with this idea in late 2015 to refer to a style of working with automated systems (potentially learning systems), generally computers, that involves a person curating the completion of work by orchestrating automated and semi-automated (or intelligent) processes that require some amount of human interaction, usually one individual. Interactive self-assembly is related to the concepts of <em>intelligence amplification</em>, and <em>self-assembly</em> (specifically <em>self-assembling machines</em>).</p>
+
+		  <p><code>TODO: Link "came up with this idea in late 2015" to the voice memo where I originally described the concept.</code></p>
+
+		  <p>Builder leverages this concept in its core mechanism that generates personalized step-by-step assembly instructions to facilitate the design and prototyping of interactive systems (with working components, in the case where Builder hardware is also used). For electronics, this eliminates the need to reference documentation for hardware, choose pins to use, and figure out how to connect components to a controller chip (e.g., Builder boards, Raspberry Pi, Arduino). I decided to do this to take a small step toward making it possible for more individuals and communities to participate directly in technology innovation. This is also a problem I encounter <em>every time</em> I work on electronics projects.</p>
+
+		  <p>Builder is specially tailored to projects hosted on GitHub.</p>
 
 		  <div class="page-header">
-			  <h2>Example Usage</h2>
+			  <h2>Example Usage (CLI)</h2>
 		  </div>
 		  <p>To generate instructions to connect an IR rangefinder and servo to the Raspberry Pi 3, users would execute the following command:</p>
 
@@ -89,7 +97,23 @@
 		  	<pre><code class="language-bash">builder connect --model raspberry-pi-3 --model machineee/generic-servo --model ir-rangefinder --model ir-rangefinder</code></pre>
 		  </p>
 		  
-		  <p><code>TODO: Show the resulting instructions!</code><p>
+		  <p><code>TODO: Show the resulting instructions.</code><p>
+		  <p><code>TODO: Show animated GIF of CLI usage.</code><p>
+
+		  <div class="page-header">
+			  <h2>Example Usage (GUI/VPL)</h2>
+		  </div>
+		  <p>In order to further facilitate the creation of device models and use of Builder's interactive self-assembly procedures, I made a graphical domain-specific language with several capabilities that accelerate designing interactive systems:</p>
+		  <p>
+		  <ul>
+			  <li>IASM procedure for creating devices.</li>
+			  <li>IASM procedure for assembling devices into systems.</li>
+			  <li>...</li>
+		  </ul>
+		  </p>
+
+		  <p><code>TODO: Show Builder GPE screenshots, videos, photos.</code><p>
+		  <p><code>TODO: Describe interaction design qualities optimized for (e.g., mobility; accelerating interconnectivity, intelligence, and interactivity).</code><p>
 
 		  <!--
 		  <div class="page-header">
@@ -97,6 +121,14 @@
 		  </div>
 		  <p>I designed a development board to compliment Builder...</p>
 		  -->
+
+		  <div class="page-header">
+			  <h2>Community-driven Innovation</h2>
+		  </div>
+		  <p>
+		  	In the spirit of interactive self-assembly, I decided to release Builder as an open source project. Anyone can contribute to the project.
+		  </p>
+		  <p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>
 		  
 	  </div>
 
