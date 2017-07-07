@@ -22,9 +22,7 @@
     <link href="theme.css" rel="stylesheet">
 
     <!-- highlight.js -->
-    <link href="./highlightjs/styles/default.css" rel="stylesheet">
-	<script src="./highlightjs/highlight.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
+    <link href="./css/highlight/styles/default.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -86,63 +84,11 @@
 			  <h2>Example Usage</h2>
 		  </div>
 		  <p>To generate instructions to connect an IR rangefinder and servo to the Raspberry Pi 3, users would execute the following command:</p>
+
 		  <p>
-		  <pre><code>builder connect --model raspberry-pi-3 --model machineee/generic-servo --model ir-rangefinder --model ir-rangefinder</code></pre>
-		  <pre><code class="language-python hljs">#! /usr/bin/env python
-
-"""
-Solve linear system using LU decomposition and Gaussian elimination
-"""
-
-import numpy as np
-from scipy.linalg import lu, inv
-
-def gausselim(A,B):
-    """
-    Solve Ax = B using Gaussian elimination and LU decomposition.
-
-    A = LU   decompose A into lower and upper triangular matrices
-    LUx = B  substitute into original equation for A
-
-    Let y = Ux and solve:
-    Ly = B --> y = (L^-1)B  solve for y using "forward" substitution
-    Ux = y --> x = (U^-1)y  solve for x using "backward" substitution
-
-    :param A: coefficients in Ax = B
-    :type A: numpy.ndarray of size (m, n)
-    :param B: dependent variable in Ax = B
-    :type B: numpy.ndarray of size (m, 1)
-    """
-    # LU decomposition with pivot
-    pl, u = lu(A, permute_l=True)
-    # forward substitution to solve for Ly = B
-    y = np.zeros(B.size)
-    for m, b in enumerate(B.flatten()):
-        y[m] = b
-        # skip for loop if m == 0
-        if m:
-            for n in xrange(m):
-                y[m] -= y[n] * pl[m,n]
-        y[m] /= pl[m, m]
-
-    # backward substitution to solve for y = Ux
-    x = np.zeros(B.size)
-    lastidx = B.size - 1  # last index
-    for midx in xrange(B.size):
-        m = B.size - 1 - midx  # backwards index
-        x[m] = y[m]
-        if midx:
-            for nidx in xrange(midx):
-                n = B.size - 1  - nidx
-                x[m] -= x[n] * u[m,n]
-        x[m] /= u[m, m]
-    return x
-
-if __name__ == '__main__':
-    x = gausselim(np.array([[3, 2], [1, -4]]), np.array([[5], [10]]))
-    print x
-		  </code></pre>
+		  	<pre><code class="language-bash">builder connect --model raspberry-pi-3 --model machineee/generic-servo --model ir-rangefinder --model ir-rangefinder</code></pre>
 		  </p>
+		  
 		  <p><code>TODO: Show the resulting instructions!</code><p>
 
 		  <!--
@@ -166,9 +112,22 @@ if __name__ == '__main__':
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+	<script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+	<!-- highlight.js -->
+	<script src="./js/highlight/highlight.pack.js"></script>
+	<!--<script>hljs.initHighlightingOnLoad();</script>-->
+	<script>
+	window.onload = function () {
+	    var allPre, i, j;
+		allPre = document.getElementsByTagName("pre");
+			for (i = 0, j = allPre.length; i < j; i++) {
+			 hljs.highlightBlock(allPre[i]);
+		 }
+	 };
+	</script>
   </body>
 </html>
