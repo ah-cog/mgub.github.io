@@ -100,13 +100,35 @@
 			<iframe src="https://ghbtns.com/github-btn.html?user=mgub&repo=pixel&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 		  </p>
 
-		  <p>
-			Creating information systems that sense and respond to the physical environment is a complex activity, requiring technical skills from disparate areas of practice, such as computer programming and electronic circuitry. Although recent tools have lowered barriers to creating such systems, they tend to be too technical and constraining for creating systems to be a feasible everyday activity. These tools often rely on traditional interaction techniques and draw makers’ attention away from the system being built, thereby limiting makers’ physical movement, removing systems from their use context, and preventing contextualized experimentation with system designs. This thesis explores techniques for designing tools with support for making systems a more feasible everyday activity. I present the novel design and evaluation of such a tool called Pixel designed to let makers use intuitive knowledge derived from experience with the physical world, rather than technical expertise, in creating custom information systems in the course of everyday life.
-		  </p>
+		  <p>Pixel is a tool for creating interactive information systems that sense and respond to the physical environment. It consists of one or more cube-shaped Pixels that together form a tangible user interface (TUI), to which electronic sensors and actuators can be connected with "snap connectors" on each Pixel, and a graphical programming environment (GPE) for mobile touchscreen devices (see figure below).</p>
 
-		  <p>
-			<img src="https://www.dropbox.com/s/witth1acgams44v/figures__diagrams__and_sketches___part_2__2__-_copy.png?raw=1" class="center-block" alt="Pixel gesture language." />
-		  </p>
+		  <img src="https://www.dropbox.com/s/6qco83i1gv5c5vi/pixel-system-overview.png?raw=1" alt="" />
+
+		  <p><em>Figure 1: Conceptual drawing of Pixel, consisting of one or more Pixels (left) and, optionally, a mobile device to program Pixel behavior with the graphical programming environment.</em></p>
+		  
+		  <p>Generally, Pixel was designed to be modular so it can be easily moved within and distributed throughout environments, combined with materials, and embedded in objects. Pixel’s modular design enables systems with sensors and actuators to be easily distributed in physical environments. Pixel enables electronic sensor and actuator components to be quickly connected to and disconnected from modules (i.e., Pixels). This was a deliberate decision weighted against alternative apporoaches, such as the embedding sensors and actuators directly into modules. I wanted to retain the general applicability of Pixel, so I avoided embedding special-purpose components and component-specific support on the circuit or code level.</p>
+
+		  <p>Systems made with Pixel can interact with the physical environment though sensors—devices for detecting physical phenomena—and actuators—devices for altering the physical environment. Pixel provides three interfaces for defining relationships between sensors and actuators.</p>
+
+		  <p>First, users can perform spatial gestures by holding one or two Pixels and moving them according to certain patterns. The four gestures that each module can recognize are rest, swung, shaken, and tapped to another module (Figure 2).</p>
+
+		  <img src="https://www.dropbox.com/s/jx6fqfmdn3ahqrz/Gestures.png?raw=1" alt="" />
+
+		  <p><em>Figure 2: The set of gesture that are recognized by Pixel.</em></p>
+
+		  <p>Spatial gestures are used solely for defining relationships between Pixels’ connected sensors and actuators. Notably, Pixel doesn’t require the use of an external tool to perform gestures. Surprisingly, I found that this was a key difference between Pixel and related gestural control schemes proposed in the literature, which commonly require an external device to initiate programming. To put it simply, Pixel embeds gestural control throughout its modular interface, whereas comperable tangible programming systems at the time tended to isolate control in a single component of the tangible interface. Usually comperable TUIs were designed so users could carry the control element with them, despite still requiring them to physically visit the programmable elements of the system with the control element.</p>
+
+		  <p>Pixel’s second interface, the snap connection interface was inspired by the MaKey MaKey. The MaKey MaKey, designed for creating custom controllers for computer software, allowed electronic components to be easily connected with alligator clips and emphasizes the use of construction materials (e.g., cardboard, tape, glue, etc.). Pixel’s snap interface offers comparable functionality, but extends it to support controlling actuators, too. Pixels have two snap connection ports and support one sensor and one actuator. Components can be connected to ports using the removable "snaps," to which they can be connected with alligator clips (Figure 3).</p>
+
+		  <img src="https://www.dropbox.com/s/9ft11sev4wrsntp/Snap%20Connector.png?raw=1" alt="" />
+
+		  <p><em>Figure 3: Drawing of Pixel’s "snap connection interface." The component on the Pixel is the "port" to which the removable "snap" couples. The port’s two gray circles represent magnets that hold the snap onto the Pixel. The snap has magnets on the opposite side of that shown. The two circular copper features of the snap are designed specifically for connection with alligator clips.</em></p>
+
+		  <p>To assist users with connecting components, magnets are embedded into snaps and ports. The magnets are oriented so connectors can only be snapped onto Pixels one way.</p>
+
+		  <p>Pixel was one of the first modular control interfaces for programming distributed systems that deeply integrated with a graphical programming environment for small mobile touchscreen devices like smartphones and tablets. GPEs pose a basic design challenge for distributed systems with distributed control because they can draw a user's attention to a central element of the system and distract from physically engaging with other elements of the distributed interface. Ultimately, I decided to include it because the GPE seemed more suitable for expressing programming intentions that lack a corresponding gesture that intuitively corresponds to the intent and is simple to perform with one or two Pixels. In other words, the GPE provides functions for customizing the application-specific behavior for individual Pixels, connected sensors, and actuators. In attempt to preserve the freedom afforded by the modular design, I designed the GPE for small, portable, pocketable touchscreen devices that can be controlled with touch-based gestures that "directly" manipulate graphical representations of a Pixel’s actions.</p>
+
+		  <p>To show how one can use Pixel to make everyday systems, three example scenarios are given in the following section.</p>
 
 		  <!--
 		  <div class="page-header">
