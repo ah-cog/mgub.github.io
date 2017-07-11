@@ -84,11 +84,11 @@
 			<em>Modular computing interface for building distributed systems quickly with gestures.</em>
 		  </p>
 		  
-		  <p>
+		  <h2>
 			<a href="https://github.com/mgub/pixel"><i class="fa fa-github" aria-hidden="true"></i></a> 
 			<a href="https://www.youtube.com/playlist?list=PL1vcE2y61lD3qHxGfPErn9XQXZ5EaKaM1"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
 			<i class="fa fa-flickr" aria-hidden="true"></i>
-		  </p>
+		  </h2>
 
 		  <!--
 		  <p>
@@ -156,7 +156,7 @@
 
 		  <p><em>Figure 10: Drawing of the complete light switch.</em></p>
 
-		  <p>In this case, no programming was required to make the light switch. Pixel was designed to provide “switch” as default a behavior because it is a design pattern that can to control a variety of electronic components. There is no need to program the I/O relationship because each pixel has only a one input and one output—their default relationship is set automatically. The “switch” behavior was chosen as the default for each pixel because it provides immediate utility and is applicable in a range of situations. Example 2 shows the use of this primitive “switch” behavior (analogous to a control structure) in making a remote light switch.</p>
+		  <p>In this case, no programming was required to make the light switch. Pixel was designed to provide "switch" as default a behavior because it is a design pattern that can to control a variety of electronic components. There is no need to program the I/O relationship because each pixel has only a one input and one output—their default relationship is set automatically. The "switch" behavior was chosen as the default for each pixel because it provides immediate utility and is applicable in a range of situations. Example 2 shows the use of this primitive "switch" behavior (analogous to a control structure) in making a remote light switch.</p>
 
 		  <h3>Example 2: Making a Remote Light Switch</h3>
 
@@ -189,14 +189,14 @@
 		  <p>This scenario is based on a suggestion of a participant in a Pixel evaluation (discussed in Chapter 5). This scenario was chosen to illustrate a realistic everyday situation in which an information system could be usefully and uniquely applied. The participant characterized the problem as follows.</p>
 		  
 		  <blockquote>
-			  <em>“Here’s a problem I have. I have a cherry tree. Just when the cherries get real ripe, the birds come and eat them. Now, if I can make some sounds or some kind of flashes or something—a scarecrow, right?—then the birds will not come. Now even a scarecrow that you have, it has to have moving parts on it, or, they say, you can buy a plastic owl and put it somewhere, but if the plastic owl is not moving at all then it won’t work. The birds will learn and it’s useless. So, if one had these kinds of things, and one of them has a motion detector, gets a motion from the birds around or something, then it can signal the other ones which would be on several branches in the tree. Something like that.”</em>
+			  <em>"Here’s a problem I have. I have a cherry tree. Just when the cherries get real ripe, the birds come and eat them. Now, if I can make some sounds or some kind of flashes or something—a scarecrow, right?—then the birds will not come. Now even a scarecrow that you have, it has to have moving parts on it, or, they say, you can buy a plastic owl and put it somewhere, but if the plastic owl is not moving at all then it won’t work. The birds will learn and it’s useless. So, if one had these kinds of things, and one of them has a motion detector, gets a motion from the birds around or something, then it can signal the other ones which would be on several branches in the tree. Something like that."</em>
 		  </blockquote>
 
 		  <p>This scenario is illustrated in Figure 17.</p>
 
 		  <img src="https://www.dropbox.com/s/8gsy3u34vr04w5d/The%20Problem.png?raw=1" alt="" />
 
-		  <p><em>Figure 17: Drawing of the “scarecrow tree” problem as described by a participant in an evaluation of Pixel. <!-- I discuss my interaction with the participant in Chapter 5. --></em></p>
+		  <p><em>Figure 17: Drawing of the "scarecrow tree" problem as described by a participant in an evaluation of Pixel. <!-- I discuss my interaction with the participant in Chapter 5. --></em></p>
 
 		  <p>Below, potential solutions are illustrated for Arduino and Pixel. These solutions extend the remote light switches presented in the previous scenarios. Note that while participant P1 envisioned this scenario for Pixel, the solution for Arduino is shown for consistency with previous Examples.</p>
 
@@ -230,7 +230,7 @@
 
 		  <img src="https://www.dropbox.com/s/qe5p9tleb4uuomu/Snap%20switch%20onto%20module.002.png?raw=1" alt="" />
 
-		  <p><em>Figure 27: Drawing of connecting the input switch to the “Switch” Pixel.</em></p>
+		  <p><em>Figure 27: Drawing of connecting the input switch to the "Switch" Pixel.</em></p>
 
 		  <p>The above sequence of swing-and-tap gestures and connecting the toggle switch to the "Switch" Pixel concludes the gestural interactions needed to make the scarecrow tree. However, as the Pixels are performing their default behavior, stimulating the "Switch" activates the "Output" actuators, to which no components are connected. The "Outputs" should, instead, display a sequence of flashing light and play a series of tones with their embedded LEDs and speakers. This can be done in the graphical programming environment.</p>
 
