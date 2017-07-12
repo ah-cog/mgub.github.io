@@ -89,7 +89,26 @@ body h1 {
 
 /* CSS used here will be applied after bootstrap.css */
 img, .embed-responsive {
-	margin-bottom: 30px;
+	margin-bottom: 0px; /* 30px */
+}
+
+div.theme-figure {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.theme-figure img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.theme-figure .caption {
+	margin-top: 10px;
+}
+
+div.theme-figure .caption p {
+	font-style: italic;
+	font-size: 10pt;
 }
 
 /* CSS used here will be applied after bootstrap.css */

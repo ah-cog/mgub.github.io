@@ -75,51 +75,89 @@
 
       <div class="row">
         <div class="col-md-9">
-
 		  <div>
 		    <h1><strong>Pixel</strong></h1>
 		  </div>
-
 		  <p>
 			<em>Modular computing interface for building distributed systems quickly with gestures.</em>
 		  </p>
-		  
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
+
+	  <div class="row">
+		<div class="col-md-9">
 		  <h2>
 			<a href="https://github.com/mgub/pixel"><i class="fa fa-github" aria-hidden="true"></i></a> 
 			<a href="https://www.youtube.com/playlist?list=PL1vcE2y61lD3qHxGfPErn9XQXZ5EaKaM1"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
 			<i class="fa fa-flickr" aria-hidden="true"></i>
 		  </h2>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
-		  <!--
-		  <p>
-			<iframe src="https://ghbtns.com/github-btn.html?user=mgub&repo=pixel&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-		  </p>
-		  -->
-
+      <div class="row">
+        <div class="col-md-9">
 		  <p>Pixel is a tool for creating interactive information systems that sense and respond to the physical environment. It consists of one or more cube-shaped Pixels that together form a tangible user interface (TUI), to which electronic sensors and actuators can be connected with "snap connectors" on each Pixel, and a graphical programming environment (GPE) for mobile touchscreen devices (see figure below).</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+      <div class="row theme-figure">
+        <div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/6qco83i1gv5c5vi/pixel-system-overview.png?raw=1" alt="" />
 
-		  <p><em>Figure 1: Conceptual drawing of Pixel, consisting of one or more Pixels (left) and, optionally, a mobile device to program Pixel behavior with the graphical programming environment.</em></p>
+		  <div class="caption">
+			  <p>Figure 1: Conceptual drawing of Pixel, consisting of one or more Pixels (left) and, optionally, a mobile device to program Pixel behavior with the graphical programming environment.</p>
+		  </div>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 		  
+	  <div class="row">
+		<div class="col-md-9">
 		  <p>Generally, Pixel was designed to be modular so it can be easily moved within and distributed throughout environments, combined with materials, and embedded in objects. Pixel’s modular design enables systems with sensors and actuators to be easily distributed in physical environments. Pixel enables electronic sensor and actuator components to be quickly connected to and disconnected from modules (i.e., Pixels). This was a deliberate decision weighted against alternative apporoaches, such as the embedding sensors and actuators directly into modules. I wanted to retain the general applicability of Pixel, so I avoided embedding special-purpose components and component-specific support on the circuit or code level.</p>
 
 		  <p>Systems made with Pixel can interact with the physical environment though sensors—devices for detecting physical phenomena—and actuators—devices for altering the physical environment. Pixel provides three interfaces for defining relationships between sensors and actuators.</p>
 
 		  <p>First, users can perform spatial gestures by holding one or two Pixels and moving them according to certain patterns. The four gestures that each module can recognize are rest, swung, shaken, and tapped to another module (Figure 2).</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+      <div class="row theme-figure">
+        <div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/jx6fqfmdn3ahqrz/Gestures.png?raw=1" alt="" />
 
-		  <p><em>Figure 2: The set of gesture that are recognized by Pixel.</em></p>
+		  <div class="caption">
+			<p>Figure 2: The set of gesture that are recognized by Pixel.</p>
+		  </div>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+      <div class="row theme-figure">
+        <div class="col-md-9">
 		  <p>Spatial gestures are used solely for defining relationships between Pixels’ connected sensors and actuators. Notably, Pixel doesn’t require the use of an external tool to perform gestures. Surprisingly, I found that this was a key difference between Pixel and related gestural control schemes proposed in the literature, which commonly require an external device to initiate programming. To put it simply, Pixel embeds gestural control throughout its modular interface, whereas comperable tangible programming systems at the time tended to isolate control in a single component of the tangible interface. Usually comperable TUIs were designed so users could carry the control element with them, despite still requiring them to physically visit the programmable elements of the system with the control element.</p>
 
 		  <p>Pixel’s second interface, the snap connection interface was inspired by the MaKey MaKey. The MaKey MaKey, designed for creating custom controllers for computer software, allowed electronic components to be easily connected with alligator clips and emphasizes the use of construction materials (e.g., cardboard, tape, glue, etc.). Pixel’s snap interface offers comparable functionality, but extends it to support controlling actuators, too. Pixels have two snap connection ports and support one sensor and one actuator. Components can be connected to ports using the removable "snaps," to which they can be connected with alligator clips (Figure 3).</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/9ft11sev4wrsntp/Snap%20Connector.png?raw=1" alt="" />
 
-		  <p><em>Figure 3: Drawing of Pixel’s "snap connection interface." The component on the Pixel is the "port" to which the removable "snap" couples. The port’s two gray circles represent magnets that hold the snap onto the Pixel. The snap has magnets on the opposite side of that shown. The two circular copper features of the snap are designed specifically for connection with alligator clips.</em></p>
+		  <div class="caption">
+			<p>Figure 3: Drawing of Pixel’s "snap connection interface." The component on the Pixel is the "port" to which the removable "snap" couples. The port’s two gray circles represent magnets that hold the snap onto the Pixel. The snap has magnets on the opposite side of that shown. The two circular copper features of the snap are designed specifically for connection with alligator clips.</em></p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row">
+		<div class="col-md-9">
 		  <p>To assist users with connecting components, magnets are embedded into snaps and ports. The magnets are oriented so connectors can only be snapped onto Pixels one way.</p>
 
 		  <p>Pixel was one of the first modular control interfaces for programming distributed systems that deeply integrated with a graphical programming environment for small mobile touchscreen devices like smartphones and tablets. GPEs pose a basic design challenge for distributed systems with distributed control because they can draw a user's attention to a central element of the system and distract from physically engaging with other elements of the distributed interface. Ultimately, I decided to include it because the GPE seemed more suitable for expressing programming intentions that lack a corresponding gesture that intuitively corresponds to the intent and is simple to perform with one or two Pixels. In other words, the GPE provides functions for customizing the application-specific behavior for individual Pixels, connected sensors, and actuators. In attempt to preserve the freedom afforded by the modular design, I designed the GPE for small, portable, pocketable touchscreen devices that can be controlled with touch-based gestures that "directly" manipulate graphical representations of a Pixel’s actions.</p>
@@ -137,24 +175,62 @@
 		  <p>This scenario shows how to build a simple light switch with both the Arduino and Pixel. This scenario is based on the common <em>Blink</em> example that serves as an introduction to Arduino. In contrast to Blink, this scenario incorporates a physical switch to control a light rather than automatically switching the light after a delay.</p>
 
 		  <p>The materials required to build a light switch with Pixel are shown in Figure 9. No computer is needed to program the switch circuit.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/0kmnq3a52u0b9v9/001.png?raw=1" alt="" />
 
-		  <p><em>Figure 8: Drawing of the materials needed to make the light switch.</em></p>
+		  <div class="caption">
+			<p>Figure 8: Drawing of the materials needed to make the light switch.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
+
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 
 		  <p>As with Arduino, the electronic components need to be assembled in a pattern that will result in expected behavior. A component can be connected Pixel by clipping it to a snap connector with two alligator clips, then snapping it to an input or output port. You connect the switch and LED in this way, as shown below.</p>
 
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
+
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/otaohavt79neazz/002.002.png?raw=1" alt="" />
-		  <img src="https://www.dropbox.com/s/b4ggjckv57tw89v/003.png?raw=1" alt="" />
+		  <!-- <img src="https://www.dropbox.com/s/b4ggjckv57tw89v/003.png?raw=1" alt="" /> -->
 		  <img src="https://www.dropbox.com/s/f1k7ixapjgqrwu1/004.002.png?raw=1" alt="" />
 
-		  <p><em>Figure 9: Drawing of connecting the input switch (top) and output LED (bottom) for the light switch. The complete system is shown in Figure 10.</em></p>
+		  <div class="caption">
+			<p>Figure 9: Drawing of connecting the input switch (top) and output LED (bottom) for the light switch. The complete system is shown in Figure 10.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <p>By default, each pixel functions as a switch. That is, when its input port is activate—if a connected circuit is closed—its output port will actively power the connected component. As a result, creating the light switch can be done entirely through direct physical action. As soon as the switch and LED are snapped onto a pixel, you can use the light switch.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/1khlxsw20cwdnd0/005.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 10: Drawing of the complete light switch.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 10: Drawing of the complete light switch.</em></p>
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 
 		  <p>In this case, no programming was required to make the light switch. Pixel was designed to provide "switch" as default a behavior because it is a design pattern that can to control a variety of electronic components. There is no need to program the I/O relationship because each pixel has only a one input and one output—their default relationship is set automatically. The "switch" behavior was chosen as the default for each pixel because it provides immediate utility and is applicable in a range of situations. Example 2 shows the use of this primitive "switch" behavior (analogous to a control structure) in making a remote light switch.</p>
 
@@ -163,24 +239,58 @@
 		  <p>This scenario extends the previous one so the light can be turned on and off <em>remotely</em>.</p>
 
 		  <p>Adapting the light switch made with Pixel to be a remote switch requires only one additional pixel.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/k04aaaq1m30zz3q/Additional%20Materials.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 14: Drawing of additional Pixel needed for remote switch.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 14: Drawing of additional Pixel needed for remote switch.</em></p>
-
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <p>The adaptation can be done in three steps with only physical actions (Figure 16). First, you swing the additional pixel in a downward motion (top left). Next, you tap the pixel just swung to the other pixel in the light switch circuit (top right). Finally, you unsnap the switch from the light switch pixel and snap it onto the other module that you swung (bottom).</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/8l35ioseb2ax2ip/Swing%20the%20second%20module.png?raw=1" alt="" />
 		  <img src="https://www.dropbox.com/s/se9q29xde53b9k4/Tap%20the%20second%20module%20to%20the%20first%20module.png?raw=1" alt="" />
 		  <img src="https://www.dropbox.com/s/2qtr4fssd67wvmf/Unsnap%20and%20snap%20the%20input%20component.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 15: Drawing of the sequence of actions to adapt the light switch to be a remote light switch.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 15: Drawing of the sequence of actions to adapt the light switch to be a remote light switch.</em></p>
-
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <p>The complete remote switch is shown in the figure below.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/mrp56aib73c68su/Try%20it.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 16: Drawing of the complete remote light switch.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 16: Drawing of the complete remote light switch.</em></p>
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 
 		  <p>The process of adapting the light switch to be a remote switch with Pixel is relatively simple and involves little in addition to moving the switch to a second module. The additional processes are minimal—swinging a module and tapping it to the other—and the actions to carry them out bear some intuitive relationship to their effect. Swinging a module engages it, indicating that it is the subject of attention, and tapping a module to another indicates that it is the subject of consideration in relation to another module.</p>
 
@@ -193,47 +303,80 @@
 		  </blockquote>
 
 		  <p>This scenario is illustrated in Figure 17.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
+
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 
 		  <img src="https://www.dropbox.com/s/8gsy3u34vr04w5d/The%20Problem.png?raw=1" alt="" />
-
-		  <p><em>Figure 17: Drawing of the "scarecrow tree" problem as described by a participant in an evaluation of Pixel. <!-- I discuss my interaction with the participant in Chapter 5. --></em></p>
+		  <div class="caption">
+			<p>Figure 17: Drawing of the "scarecrow tree" problem as described by a participant in an evaluation of Pixel. <!-- I discuss my interaction with the participant in Chapter 5. --></p>
+		  </div>
 
 		  <p>Below, potential solutions are illustrated for Arduino and Pixel. These solutions extend the remote light switches presented in the previous scenarios. Note that while participant P1 envisioned this scenario for Pixel, the solution for Arduino is shown for consistency with previous Examples.</p>
 
 		  <p>Making the scarecrow tree with Pixel can be done with five Pixels, one snap connector, an input switch, two alligator clips, and a mobile phone with Pixel’s graphical programming environment (Figure 23).</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/3t8fuway7ti53h8/Materials.002.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 23: The materials used to make the scarecrow tree with Pixel.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 23: The materials used to make the scarecrow tree with Pixel.</em></p>
-
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <p>One Pixel must be chosen to function as the "remote" to cause light and sound to be generated by the other four Pixels. Because each Pixel contains an LED and speaker, separate light and sound actuators are unnecessary. An input switch will be connected to this module. In turn it will cause the remote Pixels to flash light on and off and play a sequence of high pitch tones.</p>
 
 		  <p>To start making the system, imagine that you swing one of the Pixels. This will function as the "remote" Pixel. Swinging the module <em>engages</em> it, or directs it to become available for further gestural interaction.</p>
+		</div>
+		<div class="col-md-3"></div>
+	  </div>
 
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <img src="https://www.dropbox.com/s/c2zvs5x7c6dqbrx/Tap%20to%20another%20module.002.png?raw=1" alt="" />
+		  <div class="caption">
+			<p>Figure 24: The swing gesture.</p>
+		  </div>
+		</div>
+	    <div class="col-md-3"></div>
+	  </div>
 
-		  <p><em>Figure 24: The swing gesture.</em></p>
-
+	  <div class="row theme-figure">
+		<div class="col-md-9">
 		  <p>Recall that gesturing with Pixel is for defining stimulus-response interactions between Pixels. Next, you tap the "switch" Pixel to one of the other Pixels, represented as "Output A" in the figure below.</p>
 
-		  <img src="https://www.dropbox.com/s/wp87fbsjf0t8ccw/Repeat%203.002.png?raw=1" alt="" />
-
-		  <p><em>Figure 25: The tap gesture between two Pixels.</em></p>
+			<img src="https://www.dropbox.com/s/wp87fbsjf0t8ccw/Repeat%203.002.png?raw=1" alt="" />
+			<div class="caption">
+				<p>Figure 25: The tap gesture between two Pixels.</p>
+			</div>
 
 		  <p>This defines stimulus-response relationship between the "Switch" and "Output A" Pixels in which the stimulating the "Switch" activates "Output A," which responds by emitting flashes of light and generating a succession of sonic tones. To make the "Switch" activate all other Pixels (not just "Output A"), repeat the swing-and-tap gesture sequence, swinging the "Switch" as before, but tapping it to "Output B," "Output C," and "Output D" in turn. You do this as shown below.</p>
 
-		  <img src="https://www.dropbox.com/s/ismihpj8jc15wgu/Screen%20Shot%202017-07-11%20at%202.30.53%20AM.png?raw=1" alt="" />
-
-		  <p><em>Figure 26: From top to bottom, this drawing shows the gestures needed to create define the relationships between the "Switch" and "Output" Pixels.</em></p>
+			<img src="https://www.dropbox.com/s/ismihpj8jc15wgu/Screen%20Shot%202017-07-11%20at%202.30.53%20AM.png?raw=1" alt="" />
+			<div class="caption">
+				<p>Figure 26: From top to bottom, this drawing shows the gestures needed to create define the relationships between the "Switch" and "Output" Pixels.</p>
+			</div>
 
 		  <p>At this point, stimulating the "Switch" activates all of the "Output" Pixels synchronously. To stimulate the "Switch" easily, snap a toggle switch to "Switch" (with a snap connector), in the same way as was done in the prior scenarios. You do this as shown below.</p>
 
-		  <img src="https://www.dropbox.com/s/qe5p9tleb4uuomu/Snap%20switch%20onto%20module.002.png?raw=1" alt="" />
-
-		  <p><em>Figure 27: Drawing of connecting the input switch to the "Switch" Pixel.</em></p>
+		<img src="https://www.dropbox.com/s/qe5p9tleb4uuomu/Snap%20switch%20onto%20module.002.png?raw=1" alt="" />
+		<div class="caption">
+			<p>Figure 27: Drawing of connecting the input switch to the "Switch" Pixel.</p>
+		</div>
 
 		  <p>The above sequence of swing-and-tap gestures and connecting the toggle switch to the "Switch" Pixel concludes the gestural interactions needed to make the scarecrow tree. However, as the Pixels are performing their default behavior, stimulating the "Switch" activates the "Output" actuators, to which no components are connected. The "Outputs" should, instead, display a sequence of flashing light and play a series of tones with their embedded LEDs and speakers. This can be done in the graphical programming environment.</p>
 
+		  <!-- TODO: UPDATE THIS CODE TO MATCH OTHER FIGURES! -->
 		  <div class="row">
 			<div class="col-md-4">
 			</div>
@@ -244,7 +387,9 @@
 			</div>
 		  </div>
 
-		  <p><em>Figure 28: Drawing of the default state of the graphical programming environment.</em></p>
+		  <div class="caption">
+			<p>Figure 28: Drawing of the default state of the graphical programming environment.</p>
+		  </div>
 
 		  <p>When you open the GPE, it appears as shown in Figure 24. It shows a representation of the Pixel’s behavior as a sequence of actions, represented as circles, ordered clockwise around a circular "loop." Pixels perform the action sequence repeatedly. The actions may be conditional, as represented by the loop segment before an action. In Figure 24, the dotted segment represents the "activation" condition, satisfied when the Pixel is activated remotely.</p>
 
@@ -262,7 +407,9 @@
 			</div>
 		  </div>
 
-		  <p><em>Figure 29: Drawing of the graphical state of the GPE after adding the light behavior, setting its activation condition, adding the sound behavior, and setting it’s activation condition.</em></p>
+		  <div class="caption">
+			  <p>Figure 29: Drawing of the graphical state of the GPE after adding the light behavior, setting its activation condition, adding the sound behavior, and setting it’s activation condition.</p>
+		  </div>
 
 		  <p>To start, you remove the existing action by touching and holding your finger to it, then dragging it away from the loop, and finally lifting your finger from the action. Only the actions on the loop will be performed. Actions that are not on a loop can be added to the same loop again or left off-loop to fade away (removing them from memory).</p>
 
@@ -272,7 +419,9 @@
 
 		<img src="https://www.dropbox.com/s/xm5ic0gpj1zs48f/Try%20it.png?raw=1" alt="" />
 
-		<p><em>Figure 30: Drawing of the complete scarecrow tree built as built with Pixel.</em></p>
+		<div class="caption">
+			<p>Figure 30: Drawing of the complete scarecrow tree built as built with Pixel.</p>
+		</div>
 
 		  <!--
 		  <div class="page-header">
