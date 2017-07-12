@@ -102,11 +102,13 @@ div.theme-figure img {
 	margin-bottom: 20px;
 }
 
-div.theme-figure .caption {
+/* div.theme-figure .caption { */
+.caption {
 	margin-top: 10px;
 }
 
-div.theme-figure .caption p {
+/* div.theme-figure .caption p { */
+.caption p {
 	font-style: italic;
 	font-size: 10pt;
 }
