@@ -16,6 +16,18 @@ body h1 {
   font-weight: 600;
 }
 
+.theme-project h2 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.theme-project h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
@@ -92,22 +104,24 @@ img, .embed-responsive {
 	margin-bottom: 0px; /* 30px */
 }
 
-div.theme-figure {
-	margin-top: 20px;
-	margin-bottom: 20px;
+div.figure {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-div.theme-figure img {
+/*
+div.figure img {
 	margin-top: 20px;
 	margin-bottom: 20px;
 
 	width: 100%;
 	display: block;
 }
+*/
 
 /* div.theme-figure .caption { */
 .caption {
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 /* div.theme-figure .caption p { */
@@ -119,4 +133,11 @@ div.theme-figure img {
 /* CSS used here will be applied after bootstrap.css */
 iframe, .embed-responsive {
 	margin-bottom: 30px;
+}
+
+/* Update the default .thumbnail style. */
+.thumbnail {
+	border: 0 none;
+	box-shadow: none;
+	padding: 0px;
 }
