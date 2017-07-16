@@ -141,3 +141,13 @@ iframe, .embed-responsive {
 	box-shadow: none;
 	padding: 0px;
 }
+
+/* List styles. */
+.list-publications li {
+	margin-bottom: 10px;
+}
+
+.list-publications li p {
+	font-style: italic;
+	font-size: 12pt;
+}
