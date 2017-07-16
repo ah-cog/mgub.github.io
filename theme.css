@@ -143,7 +143,15 @@ iframe, .embed-responsive {
 }
 
 /* List styles. */
+.list-enum {
+}
+
+.list-enum li {
+	font-size: 12pt;
+}
+
 .list-publications li {
+	font-size: 12pt;
 	margin-bottom: 10px;
 }
 

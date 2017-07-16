@@ -57,7 +57,7 @@
 
 <body>
 
-	<div class="container theme-showcase" role="main">
+	<div class="container theme-showcase theme-project" role="main">
 
 		<p>
 			<a href="index.html">←</a>
@@ -88,9 +88,8 @@
 					In this research, I extended existing budgeted machine learning algorithms that learn na ̈ıve Bayes classifiers to learn Bayesian networks. Conceptually, this is a natural extension because a Bayesian network can represent more general knowledge than a na ̈ıve Bayes classifier and stem from the same set of theoretical concepts. Specifically, a na ̈ıve Bayes classifier can only accurately model examples with attributes whose values occur independently of each other, but a Bayesian network can model conditional independence among attributes, allowing a much richer model to be constructed. To understand the performance gains of my algorithms, I ran the algorithms to learn both types of models for a number of data sets, using a range of budgets and various levels of prior knowledge. I compared the models by how accurately they could predict the labels of new examples (not used for learning) based on their known attribute values.
 				</p>
 
-				<div class="page-header">
-					<h2>Budgeted Machine Learning Framework and C API</h2>
-				</div>
+				<h2>Budgeted Machine Learning Framework and C API</h2>
+
 				<p>
 					The Budgeted Machine Learning with Bayesian Network Experiment Framework (BLBN-EF) consists of two main components, in the form of computer programs: (1) the learner and (2) the generator. Both of these computer programs are implemented in the C programming language and make use of the BLBN application programming interface (API), which is also implemented in the C programming language. The BLBN API depends on the Norsys Netica C API for its Bayesian network data structures and algorithms. The BLBN API does not include its own Bayesian network data structure implementation. The BLBN API provides a framework for implementing budgeted machine learning algorithms that relies on the data structures and algorithms provided by the Netica C API whenever possible.
 				</p>
@@ -98,12 +97,13 @@
 					The BLBN-EF and the BLBN API was built to be used in an academic research environment. It has been designed to be simple and extensible, so new algorithms can be easily integrated into the API in a strightforward manner. To effectively use the BLBN-EF and BLBN API, it is crucial to be familiar with the Netica C API, since the BLBN-EF depends on the BLBN API, which in turn depends on the Netica C API.
 				</p>
 
-				<div class="page-header">
-					<h2>Publications</h2>
-				</div>
-				<p>
-					<em>Michael Gubbels. "Budgeted machine learning of bayesian networks." In Proceedings of the 17th Annual Ronald E. McNair Scholars Symposium, U.C. Berkeley, 2009.</em> <a href="https://www.dropbox.com/s/ds0o39l5n4e70z6/2009%20Paper.pdf?raw=1">PDF</a>
-				</p>
+				<h2>Publications</h2>
+
+				<ul class="list-unstyled list-publications">
+					<li>
+						<p>Gubbels, M. (2009). Budgeted machine learning of bayesian networks. In Proceedings of the 17th Annual Ronald E. McNair Scholars Symposium, U.C. Berkeley. <a href="https://www.dropbox.com/s/ds0o39l5n4e70z6/2009%20Paper.pdf?raw=1">PDF</a></p>
+					</li>
+				</ul>
 
 			</div>
 
