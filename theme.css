@@ -1,45 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-  padding-top: 70px;
-  padding-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 30px;
 }
 
 body p {
-  font-size: 12pt;
+	font-size: 12pt; /* 18px */
 }
 
 body h1 {
-  font-size: 35pt; /* 2.8em */
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-size: 35pt; /* 2.8em */
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .theme-project h2 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+
+	margin-top: 40px;
+	margin-bottom: 15px;
 }
 
 .theme-project h3 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 
 .theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+	position: static;
+	display: block;
+	margin-bottom: 20px;
 }
 
 .theme-showcase > p > .btn {
-  margin: 5px 0;
+	margin: 5px 0;
 }
 
 .theme-showcase .navbar .container {
-  width: auto;
+	width: auto;
 }
 
 /* Images fill the width of the container column divider. */
@@ -47,59 +53,59 @@ body h1 {
 
 /* Center image in divider. */
 .center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* index.html multi-column styles. */
 .mgub-multicolumn-menu h1 {
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 
 	margin-top: 50px;
 }
 
 .mgub-multicolumn-menu h2 {
-  font-size: 18px;
-  line-height: 22px;
-  /* font-weight: 700; */
-  /* letter-spacing: 2px; */
+	font-size: 18px;
+	line-height: 22px;
+	/* font-weight: 700; */
+	/* letter-spacing: 2px; */
 }
 
 
 .mgub-multicolumn-menu p {
-  font-size: 11pt;
-  color: #777777;
+	font-size: 11pt;
+	color: #777777;
 }
 
 /*
 .mgub-multicolumn-menu a:link {
-  color: #000000 !important;
+color: #000000 !important;
 }
-*/
+ */
 
 /* ul.nav li a, ul.nav li a:visited { */
 /*
 .mgub-multicolumn-menu a:visited {
-  color: #000000 !important;
+color: #000000 !important;
 }
-*/
+ */
 
 /*
 .mgub-multicolumn-menu a:hover {
-  color: #000000 !important;
+color: #000000 !important;
 }
-*/
+ */
 
 /* ul.nav li a:hover, ul.nav li a:active { */
 /*
 .mgub-multicolumn-menu a:active {
-  color: #000000 !important;
+color: #000000 !important;
 }
-*/
+ */
 
 /* CSS used here will be applied after bootstrap.css */
 img, .embed-responsive {
@@ -113,13 +119,13 @@ div.figure {
 
 /*
 div.figure img {
-	margin-top: 20px;
-	margin-bottom: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
 
-	width: 100%;
-	display: block;
+width: 100%;
+display: block;
 }
-*/
+ */
 
 /* div.theme-figure .caption { */
 .caption {

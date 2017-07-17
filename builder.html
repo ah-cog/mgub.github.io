@@ -52,7 +52,7 @@
 
   <body>
 
-    <div class="container theme-showcase" role="main">
+    <div class="container theme-showcase theme-project" role="main">
 
 	  <p>
 		<a href="index.html">←</a>
@@ -60,7 +60,6 @@
 
       <div class="row">
         <div class="col-md-9">
-		  <!-- 16:9 aspect ratio -->
 		  <div class="embed-responsive embed-responsive-16by9">
 		    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8m9wD3JerMU"></iframe>
 		  </div>
@@ -82,7 +81,7 @@
         <div class="col-md-9">
 
 		  <div>
-		    <h1><strong>Builder</strong></h1>
+			  <h1>Builder</h1>
 		  </div>
 
 		  <p>
@@ -93,21 +92,17 @@
 		  <a href="https://github.com/machineeeee/builder-python"><i class="fa fa-github" aria-hidden="true"></i></a> <a href=""><i class="fa fa-y-combinator" aria-hidden="true"></i></a> <a href="https://gitter.im/Machineeeeee/builder?utm_source=share-link&utm_medium=link&utm_campaign=share-lin"><i class="fa fa-slack" aria-hidden="true"></i></a>
 		  </h2>
 
-		  <p>Builder is a set of tools for efficiently making and distributing complete interactive systems that rely on electronic components, require custom software to operate, and are housed in a physical design. In other words, Builder is a set of tools for designing, manufacturing, and sharing technology products. Builder includes tools where they're usually overlooked in the process of making such systems.</p>
+		  <p>Builder is a set of tools for designing, manufacturing, and sharing DIY technology with the quality of consumer products. Builder includes tools where they're usually overlooked in the process of making such systems. This set of tools focuses on efficiently making and distributing complete interactive systems that rely on electronic components, require custom software to operate, and are housed in a physical design.</p>
 
-		  <p>Builder is a set of tools to help creators organize do-it-yourself electronics, software, and product design projects into complete presentations and kits.</p>
-		  
 		  <p>The concept at the heart of Builder is <em>interactive self-assembly</em> (or <em>IASM</em>). I came up with this idea in late 2015 to refer to a style of working with automated systems (potentially learning systems), generally computers, that involves a person curating the completion of work by orchestrating automated and semi-automated (or intelligent) processes that require some amount of human interaction, usually one individual. Interactive self-assembly is related to the concepts of <em>intelligence amplification</em>, and <em>self-assembly</em> (specifically <em>self-assembling machines</em>).</p>
 
-		  <p><code>TODO: Link "came up with this idea in late 2015" to the voice memo where I originally described the concept.</code></p>
+		  <!-- TODO: Link "came up with this idea in late 2015" to the voice memo where I originally described the concept. -->
 
 		  <p>Builder leverages this concept in its core mechanism that generates personalized step-by-step assembly instructions to facilitate the design and prototyping of interactive systems (with working components, in the case where Builder hardware is also used). For electronics, this eliminates the need to reference documentation for hardware, choose pins to use, and figure out how to connect components to a controller chip (e.g., Builder boards, Raspberry Pi, Arduino). I decided to do this to take a small step toward making it possible for more individuals and communities to participate directly in technology innovation. This is also a problem I encounter <em>every time</em> I work on electronics projects.</p>
 
-		  <p>Builder is specially tailored to projects hosted on GitHub. For users to get the maximum benefit of Builder, they should use it with all GitHub projects that they want to share with the idea that others will replicate the design. Once another user checks out the repository, they can use the generated results to assemble the project. Then, they can modify the project, use Builder to update the instructions and push the changes to their own repository. The effect is that sharing electronics and software projects is a better experience and the productivity of users is accelerated.</p>
+		  <!-- TODO: Insert video demo of using with GitHub project from scratch, sharing, and another user modifying and sharing. -->
 
-		  <p><code>TODO: Insert video demo of using with GitHub project from scratch, sharing, and another user modifying and sharing.</code></p>
-
-		  <p><code>TODO: Describe and demo embed button.</code></p>
+		  <!-- TODO: Describe and demo embed button. -->
 
 		  <p>
 			There was a post on Product Hunt posted on <a href="https://www.producthunt.com/posts/yc-startup-school-graduates">YC Startup School Graduates</a>.
@@ -116,17 +111,14 @@
 		  <p>
 			YC Presentation https://www.startupschool.org/presentations/596
 		  </p>
-
-		  <div class="page-header">
-			  <h2>App + Hardware Backbone</h2>
-		  </div>
+		  
+		  <h2>App + Hardware Backbone</h2>
 
 		  <p>Builder hardware was made to be the hardware backbone for products.</p>
 		  <p>It provides networking, connecting to electronics, project-level programming templates and automation, interactive electronics assembly and monitoring, operating system.</p>
+		  
+		  <h2>Example Usage (GUI/VPL)</h2>
 
-		  <div class="page-header">
-			  <h2>Example Usage (GUI/VPL)</h2>
-		  </div>
 		  <p>In order to further facilitate the creation of device models and use of Builder's interactive self-assembly procedures, I made a graphical domain-specific language with several capabilities that accelerate designing interactive systems:</p>
 		  <p>
 		  <ul>
@@ -145,18 +137,20 @@
 		  </div>
 		  <p>I designed a development board to compliment Builder...</p>
 		  -->
+		  
+		  <h2>Community-driven Innovation</h2>
 
-		  <div class="page-header">
-			  <h2>Community-driven Innovation</h2>
-		  </div>
 		  <p>
 		  	In the spirit of interactive self-assembly, I decided to release Builder as an open source project. Anyone can contribute to the project.
 		  </p>
-		  <p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>
 
-		  <div class="page-header">
-			  <h2>Development - Example Usage (CLI)</h2>
-		  </div>
+		  <p>Builder is specially tailored to projects hosted on GitHub. For users to get the maximum benefit of Builder, they should use it with all GitHub projects that they want to share with the idea that others will replicate the design. Once another user checks out the repository, they can use the generated results to assemble the project. Then, they can modify the project, use Builder to update the instructions and push the changes to their own repository. The effect is that sharing electronics and software projects is a better experience and the productivity of users is accelerated.</p>
+
+		  <p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>
+		  
+
+		  <h2>Development - Example Usage (CLI)</h2>
+
 		  <p>To generate instructions to connect an IR rangefinder and servo to the Raspberry Pi 3, users would execute the following command:</p>
 
 		  <p>
