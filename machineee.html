@@ -1,134 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
 
-    <title>Michael Gubbels</title>
+		<title>Michael Gubbels</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/037ecc7e78.js"></script>
+		<!-- Font Awesome -->
 
-    <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap theme -->
+		<link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+		<!-- Custom styles for this template -->
+		<link href="theme.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<!-- highlight.js -->
+		<link href="./css/highlight/styles/default.css" rel="stylesheet">
 
-	<!-- Start of Inbox Widget script -->
-	<script async>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="//machineee.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="machineee.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
-/*]]>*/</script>
-	<!-- End of Inbox Widget script -->
-  </head>
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="./assets/js/ie-emulation-modes-warning.js"></script>
 
-  <body>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 
-    <div class="container theme-showcase" role="main">
+		<!-- Google Analytics -->
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-	  <p>
-		<a href="index.html">←</a>
-	  </p>
+			ga('create', 'UA-102248111-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		<!-- Google Analytics -->
+	</head>
 
-      <div class="row">
-        <div class="col-md-9">
-		  <!-- 16:9 aspect ratio -->
-		  <div class="embed-responsive embed-responsive-16by9">
-		    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8m9wD3JerMU"></iframe>
-		  </div>
-		</div>
+	<body>
 
-        <div class="col-md-3">
-		  <h3>Year</h3>
-		  <p>2017</p>
+		<div class="container theme-showcase theme-project" role="main">
 
-		  <h3>Tags</h3>
-		  <p>technology, innovation, community, diy</p>
-		</div>
-      </div>
+			<p>
+			<a href="index.html">←</a>
+			</p>
 
-      <div class="row">
-        <div class="col-md-9">
+			<!--
+			<div class="row">
+			<div class="col-md-9">
+			<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8m9wD3JerMU"></iframe>
+			</div>
+			</div>
 
-		  <div>
-		    <h1><strong>Machineee</strong></h1>
-		  </div>
+			<div class="col-md-3">
+			<h3>Year</h3>
+			<p>2017</p>
 
-		  <p>
-			<em>High-quality DIY projects with great assembly instructions.</em>
-		  </p>
+			<h3>Collaborators</h3>
+			<p>Ben Hefner</p>
 
-		  <p>
-			<a href="http://machineee.com">Website</a>, <a href="https://github.com/machineeeee">GitHub</a>, <a href="https://gitter.im/Machineeeeee/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter</a>, <a href="https://twitter.com/machineeeeeeee">Twitter</a>, Email, <a href="https://angel.co/machineee">AngelList</a>
-		  </p>
+			<h3>Tags</h3>
+			<p>technology, innovation, community, diy</p>
+			</div>
+			</div>
+			-->
 
-		  <p>Machineee organizes do-it-yourself electronics projects into complete kits with personalized step-by-step assembly instructions. We're doing this to make it possible for more individuals and communities to participate directly in technology innovation.</p>
-		  
-		  <p>Our company is based on the premise that community-driven and personalized innovation will be increasingly important with continued trends toward deeper automation and on-demand manufacturing. We think DIY communities and enthusiasts will lead this transition. However, the impact they can have with current technology is limited because today's tools are too inefficient and not well adapted to the needs of DIY ecosystems.</p>
-		  
-		  <p>The platform we're developing embeds automation techniques throughout DIY development workflows to accelerate them for current developers and simplify the way the tools are used to produce electronic systems and define their control software. This means more people can use them and participate in developing technology. We developed custom hardware for our platform that further has allowed us to greatly simplify system deployment with automation. Our hardware also provides a common backbone that can be used for many systems that exist today.</p>
-		  
-		  <p>We're launching progressively over the course of this year. Reach out to us if you'd like to know more about our work.</p>
+			<div class="row">
+				<div class="col-md-9">
+
+					<div>
+						<h1>Machineee</h1>
+					</div>
+
+					<p>
+						<em>Open source community and tools dedicated to creating an ecosystem of complete, high-quality electronics projects that are easy to re-create, and therefore easy to distribute.</em>
+					</p>
+
+					<h2>
+						<a href="https://github.com/machineeeee/builder-python"><i class="fa fa-github" aria-hidden="true"></i></a> 
+						<!--
+						<a href=""><i class="fa fa-y-combinator" aria-hidden="true"></i></a> <a href="https://gitter.im/Machineeeeee/builder?utm_source=share-link&utm_medium=link&utm_campaign=share-lin"><i class="fa fa-slack" aria-hidden="true"></i></a>
+						-->
+					</h2>
+
+					<p>Machineee is an open source <!-- creative research --> project developing an ecosystem of tools for communities to design, manufacture, and distribute high-quality interactive systems built with electronics and software.</p>
+
+					<!--
+					Our activities (i.e., those of the community) include:
+					- Researching new device form factors that offer alternative assumptions about basic built system properties than the conventional and traditional "hobbyist" aesthetic (i.e., assumtions are wires everywhere is okay, messy is good, basic functionality may come as great cost, there's little automation provided above the compiler or CAD level).
+					- Publishing ideas and organizing exemplar designs that .
+					- Creating working systems with the tools and materials developed by the community.
+					- Developing the idea of "interactive self-assembly" toward the ultiamte goal of "self-replication" to make DIY self-assembly practical alternative to traditional hardware and software distribution channels.
+					-->
+
+					<p>The immediate development goals for Machineee are (1) to reduce the messiness of working with DIY electronics and (2) ease the burden of re-assembling them and (3) improve the packaging of necessary information, digital content, and access to physical components needed to re-create projects. These are the goals that led to the platform architecture outlined below.</p>
+
+					<p>Machineee is a set of tools for designing, manufacturing, and sharing DIY technology with the quality of consumer products. Machineee includes tools where they're usually overlooked in the process of making such systems. This set of tools focuses on efficiently making and distributing complete interactive systems that rely on electronic components, require custom software to operate, and are housed in a physical design.</p>
+					
+					<p>This project was motivated by (1) the creative and problem solving potential present in DIY communities, (2) the view that DIY methods of production represent latent manufacturing potential, (3) the recognition that DIY ecosystems can subert the need for traditional "distribution" channels with DIY re-assembly, provided the re-assembly process is sufficiently efficient and maximally automated, (4) dissatisfaction with the high degree of friction experienced when re-creating DIY projects found elsewhere online in a way that is practically useful. When taken together, these will enhance (or perhaps unlock) the value of DIY project content so it can be as useful as consumer-level products.</p>
+
+					<!--
+					While working on my thesis, it because clear how much exploration was possible in this space, and how little thought there was being put into it.
+					-->
+					
+					<!--
+					Focus/Elements/Goals:
+					- Distribution through re-assembly, made feasible with high-quality, automatically-generated, community-annotated assembly instructions. 
+					- Great assembly instructions.
+					-->
+
+					<!--
+					<p>The concept at the heart of Builder is <em>interactive self-assembly</em> (or <em>IASM</em>). I came up with this idea in late 2015 to refer to a style of working with automated systems (potentially learning systems), generally computers, that involves a person curating the completion of work by orchestrating automated and semi-automated (or intelligent) processes that require some amount of human interaction, usually one individual. Interactive self-assembly is related to the concepts of <em>intelligence amplification</em>, and <em>self-assembly</em> (specifically <em>self-assembling machines</em>).</p>
+					-->
+
+					<!-- TODO: Link "came up with this idea in late 2015" to the voice memo where I originally described the concept. -->
+
+					<!--
+					<p>Builder leverages this concept in its core mechanism that generates personalized step-by-step assembly instructions to facilitate the design and prototyping of interactive systems (with working components, in the case where Builder hardware is also used). For electronics, this eliminates the need to reference documentation for hardware, choose pins to use, and figure out how to connect components to a controller chip (e.g., Builder boards, Raspberry Pi, Arduino). I decided to do this to take a small step toward making it possible for more individuals and communities to participate directly in technology innovation. This is also a problem I encounter <em>every time</em> I work on electronics projects.</p>
+					-->
+
+					<!-- TODO: Insert video demo of using with GitHub project from scratch, sharing, and another user modifying and sharing. -->
+
+					<!-- TODO: Describe and demo embed button. -->
+
+					<!--
+					<p>
+					There was a post on Product Hunt posted on <a href="https://www.producthunt.com/posts/yc-startup-school-graduates">YC Startup School Graduates</a>.
+					</p>
+
+					<p>
+					YC Presentation https://www.startupschool.org/presentations/596
+					</p>
+					-->
+
+					<h2>Platform</h2>
+
+					<p>Machineee tools are made to be used to help people do two activities:
+
+					<ol class="list-enum">
+						<li><p>Users that want to find and replicate projects that others have made.</p></li>
+						<li><p>Developers that want to create and share new projects.</p></li>
+					</ol>
+
+					<p>Users that want to find and replicate projects made by others use a smartphone or tablet to browse projects and can select a project they want to build. Once they select a project, the app will provide links to all the needed parts to assemble a project, generate step-by-step assembly instructions, and automatically deploy the software needed for a system. These users don't have to know any technical information about electronics or programming to benefit from it. The only requirement for these users is to download the app, (optionally) create an account, and (optionally) purchase Machineee hardware.</p>
+
+					<p>Developers can create and share projects using the smartphone or tablet app, the command-line interface (CLI), and the Machineee hardware itself.</p>
+
+					<h3>Hardware</h3>
+					<!-- App + Hardware Backbone -->
+					
+					<p>In addition to addressing these shortcomings of existing development boards, the hardware was designed to meet some additional goals. Generally, the hardware was designed to provide a common, programmable "hardware backbone" for products that is <em>both</em> great for developer productivity and simple enough for non-developers to use purely to replicate (or distribute) projects. I think it's worth highlighting the point that most development boards are difficult even for developers to use. They're virtually impossible for non-developers to use with few, if any, exceptions. This doesn't have to be the case. Machineee seeks to address this shortcoming for non-developers because it focuses the hardware on end-use, which is where it should ultimately be used, anyway. Developers aren't not end-users! Blending the roles of developers and non-developers transforms both users and developers, it doesn't combine them.</p>
+
+					<p>It provides networking, connecting to electronics, project-level programming templates and automation, interactive electronics assembly and monitoring, operating system.</p>
+
+					<div class="figure">
+						<a href="#" class="thumbnail">
+							<img width="500" src="https://www.dropbox.com/s/fjq0enlstxclhu5/Capture.PNG?raw=1" alt="" />
+						</a>
+					</div>
+
+					<p>The hardware was design to address a number of issues with development boards that make them difficult to use.</p>
+
+					<ol class="list-enum">
+						<li><p>Difficulty in setup for developers</p></li>
+						<li><p>The assumption that wires are need to develop custom hardware. Our hardware platform seeks to eliminate the need for wires, except for the rare occasion. The precision needed to place wires, and the multiplicity of wires make projects that have many of them difficult to rebuild and very difficult to distribute and scale.</p></li>
+						<li><p>The physical usage limitations of traditional hardware: it should be easy to physically distribute the system or parts of the system in physical space; the system should be easy to embed in objects.</p></li>
+						<li><p>The focus of developers shouldn't be disproportionately on code or abstractions that are far-removed from the actual ideas and systems being implemented or explored. The tools are biased towards hands-on exploration and experimentation rather than constructing layers of abstraction that indirectly correlate to the system being built.</p></li>
+						<li><p>Programmable hardware targets or elements shouldn't require tethering to a computer or otherwise tether the developer to any particular piece of hardware that will limit their freedom to move around in physical space.</p></li>
+					</ol>
+
+					<h3>Editor (App)</h3>
+					<!-- <h3>Example Usage (GUI/VPL)</h3> -->
+
+					<p>In order to further facilitate the creation of device models and use of Builder's interactive self-assembly procedures, I made a graphical domain-specific language with several capabilities that accelerate designing interactive systems:</p>
+					<p>
+					<ul>
+						<li>IASM procedure for creating devices.</li>
+						<li>IASM procedure for assembling devices into systems.</li>
+						<li>...</li>
+					</ul>
+					</p>
+
+					<div class="figure">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="#" class="thumbnail">
+									<img src="https://www.dropbox.com/s/b9q3ru014ho17v1/Untitled%20picture%202.png?raw=1" alt="" />
+								</a>
+							</div>
+
+							<div class="col-md-4">
+								<a href="#" class="thumbnail">
+									<img src="https://www.dropbox.com/s/absp9reinry2aie/Untitled%20picture%207.png?raw=1" alt="" />
+								</a>
+							</div>
+
+							<div class="col-md-4">
+								<a href="#" class="thumbnail">
+									<img src="https://www.dropbox.com/s/ht1kxxa93hl9rul/Untitled%20picture%208.png?raw=1" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<p><code>TODO: Show Builder GPE screenshots, videos, photos.</code><p>
+					<p><code>TODO: Describe interaction design qualities optimized for (e.g., mobility; accelerating interconnectivity, intelligence, and interactivity).</code><p>
+
+					<!--
+		 <div class="page-header">
+		 <h2>Hardware</h2>
+		 </div>
+		 <p>I designed a development board to compliment Builder...</p>
+					-->
+
+					<h3>Command Line Interface</h3>
+					<!-- Development - Example usage (CLI) -->
+
+					<p>To generate instructions to connect an IR rangefinder and servo to the Raspberry Pi 3, users would execute the following command:</p>
+
+					<p>
+					<pre><code class="language-bash">builder connect --model raspberry-pi-3 --model machineee/generic-servo --model ir-rangefinder --model ir-rangefinder</code></pre>
+					</p>
+
+					<p><code>TODO: Show the resulting instructions.</code><p>
+					<p><code>TODO: Show animated GIF of CLI usage.</code><p>
+
+					<h3>Dashboard</h3>
+
+					<p>The Machineee dashboard is an online gallery of projects that can be built with Machineee hardware.</p>
+
+					<h2>Community</h2>
+
+					<h3>Community-driven Innovation</h3>
+
+					<p>
+					In the spirit of interactive self-assembly, I decided to release Builder as an open source project. Anyone can contribute to the project.
+					</p>
+
+					<p>Builder is specially tailored to projects hosted on GitHub. For users to get the maximum benefit of Builder, they should use it with all GitHub projects that they want to share with the idea that others will replicate the design. Once another user checks out the repository, they can use the generated results to assemble the project. Then, they can modify the project, use Builder to update the instructions and push the changes to their own repository. The effect is that sharing electronics and software projects is a better experience and the productivity of users is accelerated.</p>
+
+					<p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>
 
 
 
+					<h3>Support for Collaboration</h3>
 
-		  <div class="page-header">
-			<h2>Products</h2>
-		  </div>
-		  <p>
-			Describe our software and hardware.
-		  </p>
+					<p>
+					To make Builder as useful for collaborative work, I defined a standard file format for defining components.
+					</p>
 
-		  <div class="page-header">
-			<h2>Y Combinator Startup School</h2>
-		  </div>
+				</div>
 
-		  <p>I took Machineee (then Builder) through the 10-week online Startup School course developed by Y Combinator.</p>
-		  
-		  <!-- 16:9 aspect ratio -->
-		  <div class="embed-responsive embed-responsive-16by9">
-		    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8m9wD3JerMU"></iframe>
-		  </div>
+				<div class="col-md-3">
+					<h3>Year</h3>
+					<p>2017</p>
 
-		  <p>
-			<a href="https://www.startupschool.org/presentations/596">YC Startup School Presentation</a>
-		  </p>
+					<h3>Collaborators</h3>
+					<p>Ben Hefner</p>
 
-		  <p><code>TODO: Insert YCSS credential.</code></p>
+					<h3>Tags</h3>
+					<p>technology, innovation, community, diy</p>
+				</div>
 
-	  </div>
-
-	  <div class="col-md-3">
-		<!-- Placeholder for right column -->
-	  </div>
-
-    </div> <!-- /container -->
+			</div> <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+			<!-- Bootstrap core JavaScript
+	   ================================================== -->
+	   <!-- Placed at the end of the document so the pages load faster -->
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	   <script src="./js/bootstrap.min.js"></script>
+	   <script src="../../assets/js/docs.min.js"></script>
+	   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	   <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+	   <!-- highlight.js -->
+	   <script src="./js/highlight/highlight.pack.js"></script>
+	   <!--<script>hljs.initHighlightingOnLoad();</script>-->
+	   <script>
+window.onload = function () {
+	var allPre, i, j;
+	allPre = document.getElementsByTagName("pre");
+	for (i = 0, j = allPre.length; i < j; i++) {
+		hljs.highlightBlock(allPre[i]);
+	}
+};
+	   </script>
+	</body>
 </html>
