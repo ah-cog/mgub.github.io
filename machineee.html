@@ -94,16 +94,16 @@
 						<h1>Machineee</h1>
 					</div>
 
-					<p>
-						<em>Open source community and tools dedicated to creating an ecosystem of complete, high-quality electronics projects that are easy to re-create, and therefore easy to distribute.</em>
-					</p>
+					<!--<p>-->
+						<!--<em>Open source community and tools dedicated to creating an ecosystem of complete, high-quality electronics projects that are easy to re-create, and therefore easy to distribute.</em>-->
+					<!--</p>-->
 
-					<h2>
+					<div class="section-nav">
 						<a href="https://github.com/machineeeee/builder-python"><i class="fa fa-github" aria-hidden="true"></i></a> 
 						<!--
 						<a href=""><i class="fa fa-y-combinator" aria-hidden="true"></i></a> <a href="https://gitter.im/Machineeeeee/builder?utm_source=share-link&utm_medium=link&utm_campaign=share-lin"><i class="fa fa-slack" aria-hidden="true"></i></a>
 						-->
-					</h2>
+					</div>
 
 					<p>Machineee is an open source <!-- creative research --> project developing an ecosystem of tools for communities to design, manufacture, and distribute high-quality interactive systems built with electronics and software.</p>
 
@@ -116,10 +116,6 @@
 					-->
 
 					<p>The immediate development goals for Machineee are (1) to reduce the messiness of working with DIY electronics and (2) ease the burden of re-assembling them and (3) improve the packaging of necessary information, digital content, and access to physical components needed to re-create projects. These are the goals that led to the platform architecture outlined below.</p>
-
-					<p>Machineee is a set of tools for designing, manufacturing, and sharing DIY technology with the quality of consumer products. Machineee includes tools where they're usually overlooked in the process of making such systems. This set of tools focuses on efficiently making and distributing complete interactive systems that rely on electronic components, require custom software to operate, and are housed in a physical design.</p>
-					
-					<p>This project was motivated by (1) the creative and problem solving potential present in DIY communities, (2) the view that DIY methods of production represent latent manufacturing potential, (3) the recognition that DIY ecosystems can subert the need for traditional "distribution" channels with DIY re-assembly, provided the re-assembly process is sufficiently efficient and maximally automated, (4) dissatisfaction with the high degree of friction experienced when re-creating DIY projects found elsewhere online in a way that is practically useful. When taken together, these will enhance (or perhaps unlock) the value of DIY project content so it can be as useful as consumer-level products.</p>
 
 					<!--
 					While working on my thesis, it because clear how much exploration was possible in this space, and how little thought there was being put into it.
@@ -191,17 +187,12 @@
 						<li><p>Programmable hardware targets or elements shouldn't require tethering to a computer or otherwise tether the developer to any particular piece of hardware that will limit their freedom to move around in physical space.</p></li>
 					</ol>
 
-					<h3>Editor (App)</h3>
+					<h3>Editor</h3>
 					<!-- <h3>Example Usage (GUI/VPL)</h3> -->
 
-					<p>In order to further facilitate the creation of device models and use of Builder's interactive self-assembly procedures, I made a graphical domain-specific language with several capabilities that accelerate designing interactive systems:</p>
-					<p>
-					<ul>
-						<li>IASM procedure for creating devices.</li>
-						<li>IASM procedure for assembling devices into systems.</li>
-						<li>...</li>
-					</ul>
-					</p>
+					<p>Editor is a graphical domain-specific language designed for smartphones and tablets that makes configuring collections of hardware simple and easy. Editor was designed over several iterations in tandem with the hardware so they could complement one another throughout both development and deployment for use.</p>
+
+					<p>Editor is still under development. Here are some screenshots from a prototype. This is at least two big revisions behind the latest version.</p>
 
 					<div class="figure">
 						<div class="row">
@@ -225,8 +216,25 @@
 						</div>
 					</div>
 
-					<p><code>TODO: Show Builder GPE screenshots, videos, photos.</code><p>
-					<p><code>TODO: Describe interaction design qualities optimized for (e.g., mobility; accelerating interconnectivity, intelligence, and interactivity).</code><p>
+					<p>In order to further facilitate the creation of device models and use of interactive self-assembly procedures, the editor was made as a graphical domain-specific language with several capabilities that accelerate designing interactive systems:</p>
+
+					<p>
+					<ul class="list-enum">
+						<li><p>Creating new components from scratch. For example, you could create a component for a new IR rangefinder, unique servo type, or a custom sensor developed to conduct research.</p></li>
+						<li><p>Selecting components from a library of existing components. Editor will provide interactive guidance and automation through the completion of the process of interfacing with selected components and controlling them.</p></li>
+						<li><p>Browsing a library of existing projects that can be replicated.</p></li>
+						<li><p>Interactive automation and guidance to connect all components into systems. This process is not technical. It's comperable to following along with LEGO instructions. For example, you might be connecting a servo to one Machineee board, and connecting a IR rangefinder to another Machineee board.</p></li>
+						<li><p>Defining logical communication paths between Machineee boards and connected components. For example, you might create a path between the Machineee boards in the previous point, so you can then set up control so the IR rangefinder data controls the servo's rotation.</p></li>
+						<li><p>...</p></li>
+						<li><p>(saves/sync work done on mobile with project on GitHub/Dashboard)</p></li>
+					</ul>
+					</p>
+
+					<p>Editor can be run on any number of devices and used together to provide different views onto your project and different sets of tools for editing.</p>
+
+
+					<!--<p><code>TODO: Show Builder GPE screenshots, videos, photos.</code><p>-->
+					<!--<p><code>TODO: Describe interaction design qualities optimized for (e.g., mobility; accelerating interconnectivity, intelligence, and interactivity).</code><p>-->
 
 					<!--
 		 <div class="page-header">
@@ -244,32 +252,30 @@
 					<pre><code class="language-bash">builder connect --model raspberry-pi-3 --model machineee/generic-servo --model ir-rangefinder --model ir-rangefinder</code></pre>
 					</p>
 
-					<p><code>TODO: Show the resulting instructions.</code><p>
-					<p><code>TODO: Show animated GIF of CLI usage.</code><p>
+					<!--<p><code>TODO: Show the resulting instructions.</code><p>-->
+					<!--<p><code>TODO: Show animated GIF of CLI usage.</code><p>-->
 
-					<h3>Dashboard</h3>
+					<h3>Online Dashboard & Community</h3>
 
 					<p>The Machineee dashboard is an online gallery of projects that can be built with Machineee hardware.</p>
 
+					<p>Dashboard is built to work really well with GitHub repositories. It integrates with GitHub, used as a distribituion, versioning, and hosting; alongside Octopart, CircuitMaker, Gitter.</p>
+
 					<h2>Community</h2>
+
+					<p>This project was motivated by (1) the creative and problem solving potential present in DIY communities, (2) the view that DIY methods of production represent latent manufacturing potential, (3) the recognition that DIY ecosystems can provide an alternative to traditional "distribution" channels by leveraging DIY re-assembly and personalization by users, provided the re-assembly process is sufficiently efficient and maximally automated, (4) dissatisfaction with the high degree of friction experienced when re-creating DIY projects found elsewhere online in a way that is practically useful. When taken together, these will enhance (or perhaps unlock) the value of DIY project content so it can be as useful as consumer-level products.</p>
 
 					<h3>Community-driven Innovation</h3>
 
-					<p>
-					In the spirit of interactive self-assembly, I decided to release Builder as an open source project. Anyone can contribute to the project.
-					</p>
+					<p>In the spirit of interactive self-assembly, I decided to release Builder as an open source project. Anyone can contribute to the project.</p>
 
 					<p>Builder is specially tailored to projects hosted on GitHub. For users to get the maximum benefit of Builder, they should use it with all GitHub projects that they want to share with the idea that others will replicate the design. Once another user checks out the repository, they can use the generated results to assemble the project. Then, they can modify the project, use Builder to update the instructions and push the changes to their own repository. The effect is that sharing electronics and software projects is a better experience and the productivity of users is accelerated.</p>
 
-					<p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>
-
-
+					<!--<p><code>TODO: Give brief instructions for how to contribute or collaborate.</code></p>-->
 
 					<h3>Support for Collaboration</h3>
 
-					<p>
-					To make Builder as useful for collaborative work, I defined a standard file format for defining components.
-					</p>
+					<p>To make Builder as useful for collaborative work, I defined a standard file format for defining components.</p>
 
 				</div>
 
@@ -311,3 +317,4 @@ window.onload = function () {
 	   </script>
 	</body>
 </html>
+
