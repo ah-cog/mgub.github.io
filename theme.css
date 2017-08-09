@@ -16,6 +16,15 @@ body h1 {
 	font-weight: 600;
 }
 
+.theme-index .section-nav {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .theme-project .section-nav {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
