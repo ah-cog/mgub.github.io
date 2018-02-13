@@ -34,9 +34,9 @@
 
 	<!-- Google Analytics -->
 	<script>
-		(function(i, s, o, g, r, a, m) {
+		(function (i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
+			i[r] = i[r] || function () {
 				(i[r].q = i[r].q || []).push(arguments)
 			}, i[r].l = 1 * new Date();
 			a = s.createElement(o),
@@ -52,103 +52,80 @@
 </head>
 
 <body>
-
-	<div class="container theme-showcase theme-project" role="main">
-
+	<div class="container project-layout theme-showcase theme-project" role="main">
 		<p>
 			<a href="index.html">←</a>
 		</p>
+	</div>
 
-		<div class="row">
-			<div class="col-md-9">
-				<img src="https://www.dropbox.com/s/z8bybicihtbqku6/visualization-example.png?raw=1" alt="An example visualization showing the simulated environment and the agents within it." />
-			</div>
+	<div class="container list-layout project-header theme-showcase" role="main">
+		<h1>
+			Multi-agent Simulation of the 2008 Housing Bubble
+		</h1>
+		<div class="text">
+			Agent-based simulation and visualization of economic bubbles used to explore the 2008 housing market bubble.
+		</div>
+		<div class="link-option-container">
+			<strong>
+				<!-- <a href="https://github.com/mgub/sciencekit">GitHub</a> -->
+				<a href="https://www.dropbox.com/s/4r2glgnl494lfol/Proposal.pdf?raw=1">Proposal</a>
+				<a href="https://www.dropbox.com/s/g2fpf2blptgx9cf/Report.pdf?raw=1">Report</a>
+			</strong>
+		</div>
+	</div>
 
-			<div class="col-md-3">
-				<h3>Dates</h3>
-				<p>2009</p>
+	<div class="container list-layout project-layout theme-showcase" role="main">
 
-				<h3>Collaborators</h3>
-				<p>Casey Nugent</p>
+		<p>
+			This project, my teammate, Casey Nugent, and I designed a model of a the relationships between banks, borrowers, and the
+			Federal Reserve (“Fed”) that maximizes social welfare and minimizes involvement of the Fed all the while avoiding a catastrophe
+			similar to the real-world 2007 subprime mortgage crisis that resulted in the to-date failure of over 130 banks.
+		</p>
 
-				<h3>Tags</h3>
-				<p>multi-agent system, simulation, bank, loan, bubble</p>
+		<!-- TODO: Insert results from report. -->
+
+		<div class="figure">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="https://www.dropbox.com/s/k3f8f6sn6hgpb0a/WorldVisualization91.0.png?raw=1" alt="Step 91 of the Simulation" />
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="https://www.dropbox.com/s/2z4ktth2lfz10c4/WorldVisualization102.0.png?raw=1" alt="Step 102 of the Simulation" />
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="thumbnail">
+						<img src="https://www.dropbox.com/s/75middwi3bfc2xb/WorldVisualization391.0.png?raw=1" alt="Step 391 of the Simulation" />
+					</a>
+				</div>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-9">
+		<!-- TODO: Insert photos from documentaiton and report. -->
 
-				<div>
-					<h1><strong>Multi-agent Simulation of the 2008 Housing Bubble</strong></h1>
-				</div>
+		<h2>Agent Design</h2>
 
-				<p>
-					<em>Agent-based simulation and visualization of economic bubbles used to explore the 2008 housing market bubble.</em>
-				</p>
+		<p>
+			Our model utilizes three types of agents: borrowers, banks, and the Federal Reserve.  While borrowers and banks engage in
+			negotiations, banks and the Fed engage in behavior monitoring and regulation.  Whether or not to make behavior adjustments
+			will be based upon changes in the moving averages of relevant variables.
+		</p>
+	</div>
 
-				<p>
-					<a href="https://www.dropbox.com/s/4r2glgnl494lfol/Proposal.pdf?raw=1">Proposal</a>,
-					<a href="https://www.dropbox.com/s/g2fpf2blptgx9cf/Report.pdf?raw=1">Report</a>
-				</p>
-
-				<p>
-					This project, my team designed a model of a the relationships between banks, borrowers, and the Federal Reserve (“Fed”) that maximizes social welfare and minimizes involvement of the Fed all the while avoiding a catastrophe similar to the real-world 2007 subprime mortgage crisis that resulted in the to-date failure of over 130 banks.
-				</p>
-
-				<!-- TODO: Insert results from report. -->
-
-				<div class="figure">
-					<div class="row">
-						<div class="col-md-4">
-							<a href="#" class="thumbnail">
-								<img src="https://www.dropbox.com/s/k3f8f6sn6hgpb0a/WorldVisualization91.0.png?raw=1" alt="Step 91 of the Simulation" />
-							</a>
-						</div>
-						<div class="col-md-4">
-							<a href="#" class="thumbnail">
-								<img src="https://www.dropbox.com/s/2z4ktth2lfz10c4/WorldVisualization102.0.png?raw=1" alt="Step 102 of the Simulation" />
-							</a>
-						</div>
-						<div class="col-md-4">
-							<a href="#" class="thumbnail">
-								<img src="https://www.dropbox.com/s/75middwi3bfc2xb/WorldVisualization391.0.png?raw=1" alt="Step 391 of the Simulation" />
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<!-- TODO: Insert photos from documentaiton and report. -->
-
-				<h2>Agent Design</h2>
-
-				<p>
-					Our model utilizes three types of agents: borrowers, banks, and the Federal Reserve.  While borrowers and banks engage in negotiations, banks and the Fed engage in behavior monitoring and regulation.  Whether or not to make behavior adjustments will be based upon changes in the moving averages of relevant variables.
-				</p>
-
-				<!-- TODO: Insert more detail on the agents and simluation. -->
-
-			</div>
-
-			<div class="col-md-3">
-				<!-- Placeholder for right column -->
-			</div>
-
-		</div>
-		<!-- /container -->
-
-
-		<!-- Bootstrap core JavaScript
+	<!-- Bootstrap core JavaScript
     ================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script>
-			window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-		</script>
-		<script src="../../dist/js/bootstrap.min.js"></script>
-		<script src="../../assets/js/docs.min.js"></script>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+	</script>
+	<script src="../../dist/js/bootstrap.min.js"></script>
+	<script src="../../assets/js/docs.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>
