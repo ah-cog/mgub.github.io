@@ -78,8 +78,32 @@ body h1 {
 	margin-right: auto;
 }
 
-.list-layout > p {
+.list-layout > .text {
 	font-size: 16pt;
+	margin: 0px 0px 10px 0px;
+}
+
+.list-layout > .link-option-container {
+	font-size: 16pt;
+}
+
+.project-header {
+	margin-bottom: 40px;
+}
+
+.project-preview {
+	margin-bottom: 24px;
+}
+
+.project-preview > .title {
+	font-size: 30px;
+	margin: 0px 0px 5px 0px;
+	font-weight: 600;
+}
+
+.project-preview > .text {
+	font-size: 16pt;
+	margin: 0px 0px 10px 0px;
 }
 
 /* index.html multi-column styles. */
