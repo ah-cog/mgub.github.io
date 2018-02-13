@@ -1,131 +1,161 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body {
-	padding-top: 70px;
-	padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
 body p {
-	font-size: 12pt; /* 18px */
+  font-size: 12pt; /* 18px */
 }
 
 body h1 {
-	font-size: 35pt; /* 2.8em */
-	/* text-transform: uppercase; */
-	font-weight: 600;
+  font-size: 35pt; /* 2.8em */
+  /* text-transform: uppercase; */
+  font-weight: 600;
 }
 
 .theme-index .section-nav {
-	font-family: Raleway, sans-serif;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 40px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .theme-project .section-nav {
-	font-family: Raleway, sans-serif;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 40px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .theme-project h2 {
-	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
-	font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 
-	margin-top: 40px;
-	margin-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .theme-project h3 {
-	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
-	font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 
-	margin-top: 30px;
-	margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .theme-dropdown .dropdown-menu {
-	position: static;
-	display: block;
-	margin-bottom: 20px;
+  position: static;
+  display: block;
+  margin-bottom: 20px;
 }
 
-.theme-showcase > p > .btn {
-	margin: 5px 0;
-}
+/* .theme-showcase > p > .btn {
+  margin: 5px 0;
+} */
 
 .theme-showcase .navbar .container {
-	width: auto;
+  width: auto;
 }
 
 /* Images fill the width of the container column divider. */
 .row > div > img {
-	width: 100%;
-	display: block;
+  width: 100%;
+  display: block;
 }
 
 /* Center image in divider. */
 .center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/*
+ * List Layout
+ */
+
 .list-layout > .text {
-	font-size: 16pt;
-	margin: 0px 0px 10px 0px;
+  font-size: 16pt;
+  margin: 0px 0px 10px 0px;
 }
 
 .list-layout > .link-option-container {
-	font-size: 16pt;
+  font-size: 16pt;
 }
 
+/*
+ * Project Layout
+ */
+
+.project-layout .text {
+  font-size: 16pt;
+  margin: 0px 0px 10px 0px;
+}
+
+.project-layout .link-option-container {
+  font-size: 16pt;
+}
+
+.project-layout > p {
+  font-size: 16pt;
+}
+
+.project-layout > .list-publications > li {
+  font-size: 16pt;
+  margin-bottom: 10px;
+}
+
+/*
+ * Project Preview
+ */
+
 .project-header {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .project-preview {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .project-preview > .title {
-	font-size: 30px;
-	margin: 0px 0px 5px 0px;
-	font-weight: 600;
+  font-size: 30px;
+  margin: 0px 0px 5px 0px;
+  font-weight: 600;
 }
 
 .project-preview > .text {
-	font-size: 16pt;
-	margin: 0px 0px 10px 0px;
+  font-size: 16pt;
+  margin: 0px 0px 10px 0px;
 }
 
 /* index.html multi-column styles. */
 .mgub-multicolumn-menu h1 {
-	font-size: 12px;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .mgub-multicolumn-menu h2 {
-	font-size: 18px;
-	line-height: 22px;
-	/* font-weight: 700; */
-	/* letter-spacing: 2px; */
+  font-size: 18px;
+  line-height: 22px;
+  /* font-weight: 700; */
+  /* letter-spacing: 2px; */
 }
 
 .mgub-multicolumn-menu p {
-	font-size: 11pt;
-	color: #777777;
+  font-size: 11pt;
+  color: #777777;
 }
 
 /*
@@ -157,12 +187,12 @@ color: #000000 !important;
 /* CSS used here will be applied after bootstrap.css */
 img,
 .embed-responsive {
-	margin-bottom: 0px; /* 30px */
+  margin-bottom: 0px; /* 30px */
 }
 
 div.figure {
-	margin-top: 30px;
-	margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*
@@ -177,42 +207,24 @@ display: block;
 
 /* div.theme-figure .caption { */
 .caption {
-	/* margin-top: 10px; */
+  /* margin-top: 10px; */
 }
 
 /* div.theme-figure .caption p { */
 .caption p {
-	font-style: italic;
-	font-size: 10pt;
+  font-style: italic;
+  font-size: 10pt;
 }
 
 /* CSS used here will be applied after bootstrap.css */
 iframe,
 .embed-responsive {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* Update the default .thumbnail style. */
 .thumbnail {
-	border: 0 none;
-	box-shadow: none;
-	padding: 0px;
-}
-
-/* List styles. */
-.list-enum {
-}
-
-.list-enum li {
-	font-size: 12pt;
-}
-
-.list-publications li {
-	font-size: 12pt;
-	margin-bottom: 10px;
-}
-
-.list-publications li p {
-	font-style: italic;
-	font-size: 12pt;
+  border: 0 none;
+  box-shadow: none;
+  padding: 0px;
 }
