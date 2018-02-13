@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body {
 	padding-top: 70px;
@@ -11,31 +11,31 @@ body p {
 
 body h1 {
 	font-size: 35pt; /* 2.8em */
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 
 .theme-index .section-nav {
-    font-family: Raleway, sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .theme-project .section-nav {
-    font-family: Raleway, sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .theme-project h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 
@@ -44,7 +44,7 @@ body h1 {
 }
 
 .theme-project h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 
@@ -67,13 +67,20 @@ body h1 {
 }
 
 /* Images fill the width of the container column divider. */
-.row > div > img { width: 100%; display: block; }
+.row > div > img {
+	width: 100%;
+	display: block;
+}
 
 /* Center image in divider. */
 .center-block {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.list-layout > p {
+	font-size: 16pt;
 }
 
 /* index.html multi-column styles. */
@@ -92,7 +99,6 @@ body h1 {
 	/* font-weight: 700; */
 	/* letter-spacing: 2px; */
 }
-
 
 .mgub-multicolumn-menu p {
 	font-size: 11pt;
@@ -126,7 +132,8 @@ color: #000000 !important;
  */
 
 /* CSS used here will be applied after bootstrap.css */
-img, .embed-responsive {
+img,
+.embed-responsive {
 	margin-bottom: 0px; /* 30px */
 }
 
@@ -157,7 +164,8 @@ display: block;
 }
 
 /* CSS used here will be applied after bootstrap.css */
-iframe, .embed-responsive {
+iframe,
+.embed-responsive {
 	margin-bottom: 30px;
 }
 
