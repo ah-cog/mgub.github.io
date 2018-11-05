@@ -1,4 +1,4 @@
-# mokogobo.github.io
+# mgub.github.io
 
 This is the source code and host location for [mgub.co](http://www.mgub.co/).
 
